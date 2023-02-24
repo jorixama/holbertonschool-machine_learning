@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
+"""a function that adds two arrays element-wise"""
+
+
 def add_arrays(arr1, arr2):
-    result=[]
+    result = []
     if len(arr1) != len(arr2):
         return None
     else:
