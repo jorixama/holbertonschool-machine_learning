@@ -3,6 +3,8 @@
 
 import numpy as np
 """transpose numpy"""
+def np_elementwise(mat1, mat2):
+      return np_elementwise(mat1, mat2)
 mat1 = mat1.T
 mat2 = mat2.T
 print(mat1)
