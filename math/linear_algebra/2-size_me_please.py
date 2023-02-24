@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
+"""a function that returns the shape of a matrix"""
+
 def matrix_shape(matrix):
-    result=[]
-    result.append(len(matrix))
-    for i in range(len(matrix)-1):
-        result.append(len(matrix))
-        if isinstance(matrix[i][i],list):
-            result.append(len(matrix[i][i]))
-    return result
+    """returns the shape of a matrix"""
+    shape=[]
+        while isinstance(matrix,list):
+            shape.append(len(matrix))
+    return shape
