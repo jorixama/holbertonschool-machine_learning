@@ -3,7 +3,7 @@
 
 
 def matrix_transpose(matrix):
-"""returns the transpose of a 2D matrix"""
+    """returns the transpose of a 2D matrix"""
     result = []
     for i in range(len(matrix[0])):
         row = []
